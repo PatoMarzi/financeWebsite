@@ -1,14 +1,10 @@
-@media screen and (max-width: 480px) {
-  /* ·································· */
-  /* ··········· index.html ··········· */
-  /* ·································· */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
-
-  
-}
-
-@media screen and (max-width: 768px) {
-  /* ·································· */
-  /* ··········· index.html ··········· */
-  /* ·································· */
-}
+/* Variables */
+.caja {
+  width: 100px;
+  height: 200px;
+  background-color: red; }
