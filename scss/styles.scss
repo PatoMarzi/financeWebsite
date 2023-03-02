@@ -1,12 +1,7 @@
-/* Variables */
-
-$mainColor: #a731b9;
-$secondColor: #051b11;
-$imgColor: #61b95e;
-
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 400px) {
   @import "./body";
   @import "./header";
+  @import "./variables";
   * {
     margin: 0;
     padding: 0;
