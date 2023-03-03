@@ -1,4 +1,4 @@
-$mainColor: #a731b9;
+$mainColor: #336a38;
 
 $secondColor: #051b11;
 
@@ -6,11 +6,11 @@ $imgColor: #61b95e;
 
 @mixin setFont($type, $device) {
   @if ($device == mobile) {
-    font-size: 12px;
+    font-size: 0.75rem;
   } @else if ($device == tablet) {
-    font-size: 18px;
+    font-size: 1.12rem;
   } @else if ($device == desktop) {
-    font-size: 22px;
+    font-size: 1.4rem;
   }
   @if ($type == heading) {
     font-family: "Montserrat", sans-serif;

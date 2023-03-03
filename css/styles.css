@@ -11,12 +11,12 @@
     width: 100%;
     height: 70px;
     background-color: #198754; }
-    header .logo {
-      width: 50px;
-      height: 50px; }
-  .caja {
+  .logo {
+    width: 35px;
+    height: 40px; }
+  .navegacion .cf {
     width: 100%;
-    height: 100px; }
+    display: flex; }
   .navegacion .menu {
     display: flex;
     flex-direction: row;
@@ -26,18 +26,44 @@
       text-decoration: none;
       color: #051b11;
       margin: 5px;
-      font-size: 12px;
+      font-size: 0.75rem;
       font-family: "Libre Baskerville", serif; }
     .navegacion .menu li {
       margin: 5px auto;
       color: #051b11;
       list-style-type: none;
-      font-size: 12px;
+      font-size: 0.75rem;
       font-family: "Libre Baskerville", serif; }
-    .navegacion .menu .submenu {
-      background-color: red;
+    .navegacion .menu li i {
+      margin-left: 10px; }
+    .navegacion .menu .menu_i a {
+      text-decoration: none;
+      color: #051b11; }
+    .navegacion .menu .menu_i:hover .submenu {
       display: flex;
+      flex-direction: column; }
+    .navegacion .menu .submenu {
+      position: absolute;
+      right: 1vw;
+      background-color: red;
+      display: none;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      padding: 5px; } }
+      padding: 5px;
+      margin-left: 5px; }
+      .navegacion .menu .submenu .submenu_i {
+        display: flex;
+        color: #051b11; }
+  .main-section {
+    margin-top: 10px; }
+    .main-section h1 {
+      color: #336a38;
+      font-size: 3rem;
+      text-align: center; }
+    .main-section .img-container {
+      padding: 5px; }
+      .main-section .img-container .growth {
+        width: 90%;
+        margin: 10px;
+        background-color: #051b11; } }
