@@ -1,3 +1,22 @@
 $mainColor: #a731b9;
+
 $secondColor: #051b11;
+
 $imgColor: #61b95e;
+
+@mixin setFont($type, $device) {
+  @if ($device == mobile) {
+    font-size: 12px;
+  } @else if ($device == tablet) {
+    font-size: 18px;
+  } @else if ($device == desktop) {
+    font-size: 22px;
+  }
+  @if ($type == heading) {
+    font-family: "Montserrat", sans-serif;
+  } @else if $type == subHeading {
+    font-family: "Open Sans", sans-serif;
+  } @else if $type == buttons {
+    font-family: "Libre Baskerville", serif;
+  }
+}
