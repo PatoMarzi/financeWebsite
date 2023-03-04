@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box; }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 480px) {
   body {
     box-sizing: border-box;
     background-color: #051b11; }
