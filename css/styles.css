@@ -13,7 +13,8 @@
     background-color: #198754; }
   .logo {
     width: 35px;
-    height: 40px; }
+    height: 40px;
+    background-color: transparent; }
   .navegacion .cf {
     width: 100%;
     display: flex; }
@@ -58,7 +59,7 @@
   .main-section {
     margin-top: 10px; }
     .main-section h1 {
-      color: #336a38;
+      color: #336b38;
       font-size: 3rem;
       text-align: center; }
     .main-section .img-container {
@@ -66,4 +67,14 @@
       .main-section .img-container .growth {
         width: 90%;
         margin: 10px;
-        background-color: #051b11; } }
+        background-color: #051b11; }
+    .main-section .container {
+      padding-left: 0.75rem;
+      padding-right: 0.75rem;
+      height: 100px; }
+      .main-section .container h2 {
+        margin-top: 10px;
+        color: #336b38; }
+      .main-section .container h2 span:hover {
+        text-emphasis-color: green;
+        transform: scale(1.2); } }
