@@ -80,8 +80,8 @@
         transform: scale(1.2); }
       .main-section .container .row .col {
         height: auto;
-        margin: 5px auto;
-        width: 90%;
+        padding: 0;
+        width: 100%;
         height: 200px;
         background-color: red; }
         .main-section .container .row .col .steps {
